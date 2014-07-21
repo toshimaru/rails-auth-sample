@@ -38,3 +38,7 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# role authentication
+gem 'devise'
+gem 'authority'
+gem 'rolify'
