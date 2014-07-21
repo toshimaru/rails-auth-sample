@@ -18,5 +18,11 @@
 
 <%= yield %>
 
+<footer>
+  <p>user signed_in?: <%= debug user_signed_in? %></p>
+  <p>current_user: <%= debug current_user%></p>
+  <p>user_session: <%= debug user_session%></p>
+</footer>
+
 </body>
 </html>
